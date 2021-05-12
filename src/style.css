@@ -1,0 +1,20 @@
+
+*{
+  color: red;
+}
+.form-container{
+  width: 600px;
+  max-width: 100%;
+  background: #a6c7cade;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 16px 0px rgba(50, 50, 50, 0.75);
+}
+.form{
+  padding: 25px 40px;
+}
+
+.form-box¨{
+  padding-bottom: 20px;
+  margin-bottom:  10px;
+}
