@@ -6,9 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <section class="registry-section">
+       <div class="form-container">
+         <div class="form-header">
+           <h2> <div align="center">Usuario Nuevo</div></h2>
+         </div>
+         <form id="user-form" class="form">
+           <div class="form-box">
+             <label for="nickName ">Nombre</label>
+             <input type="text" name="nickName" id="nickName" placeholder="NavisCode">
+             <small class="error-text">Introduce un Nombre</small>
+
+           </div>
+           <div class="form-box">
+             <label for="email ">Email</label>
+             <input type="email" name="email" id="email" placeholder="info@gmail.com">
+             <small class="error-text">Introducir un Email Valido</small>
+
+           </div>
+           <div class="form-box">
+             <label for="password ">Password</label>
+             <input type="password" name="password" id="password" placeholder="NavisCode">
+             <small class="error-text">Introduce una contraseña de+6 caracteres</small>
+
+           </div>
+           <button type="submit" id="submit-btn" disabled>Enviar</button>
     <script src="index.js" type="module"></script>
   </body>
 </html>
